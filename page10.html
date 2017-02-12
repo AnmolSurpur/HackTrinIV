@@ -1,0 +1,49 @@
+<html>
+<head>
+ <link rel="stylesheet" type="text/css"
+href="css/style1.css" />
+
+<script>
+
+
+ //first, check to see if the variable is empty!
+ if (localStorage.getItem("pageCount") == null){
+   var pageCount = 1;
+   localStorage.setItem("pageCount", 1);
+ }
+ else{
+   var pageCount = Number(localStorage.getItem("pageCount"));
+   pageCount=pageCount+1;
+   localStorage.setItem("pageCount", pageCount);
+ }
+ var value0=localStorage.getItem("name");
+ 
+ </script>
+ 
+
+</head>
+
+<body>
+<style>
+
+body {
+    background-opacity: 0.2;
+    background-color:white;
+    filter: alpha(opacity=20); /* For IE8 and earlier */
+    background-image: url("GamePhotos/MarcieWin.jpg");
+    background-repeat: no-repeat;
+}
+p {
+  color:white;
+  }
+</style>
+<h1>Marceline the Vampire Queen</h1>
+<hr />
+<p> Congratulations! Marceline didn't hula-hoop to her death, and successfully hula-hooped in the middle of the fire! </p>
+
+
+<center>
+</center>
+
+</body>
+</html>

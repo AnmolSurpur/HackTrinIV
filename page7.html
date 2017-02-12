@@ -1,0 +1,75 @@
+<html>
+<head>
+ <link rel="stylesheet" type="text/css"
+href="css/style1.css" />
+
+
+</head>
+
+<body>
+
+<h1>Oh No!... You have run into Gollum.</h1>
+<h2> What is described by:
+Voiceless it cries,
+Wingless flutters,
+Toothless bites,
+Mouthless mutters. 
+</h2>
+<p>
+
+<center></center><p><script type="text/javascript">
+
+if (sessionStorage.getItem("clickcount") == 0){
+	var right = '"page8.html"';
+}
+if(sessionStorage.getItem("clickcount") == 1){
+	var right = '"page9.html"';
+}
+if(sessionStorage.getItem("clickcount") == 2){
+	var right = '"page10.html"';
+}
+if(sessionStorage.getItem("clickcount") == 3){
+	var right = '"page11.html"';
+}
+ document.write('<p><a href='+right+'>The Wind</a></p>');
+
+</script>
+
+<center></center><p><script type="text/javascript">
+
+if (sessionStorage.getItem("clickcount") == 0){
+	var wrong = '"page12.html"';
+}
+if(sessionStorage.getItem("clickcount") == 1){
+	var wrong = '"page13.html"';
+}
+if(sessionStorage.getItem("clickcount") == 2){
+	var wrong = '"page14.html"';
+}
+if(sessionStorage.getItem("clickcount") == 3){
+	var wrong = '"page15.html"';
+}
+ document.write('<p><a href='+wrong+'>A Cloud</a></p>');
+ document.write('<p><a href='+wrong+'>A Bird</a></p>');
+
+</script>
+
+
+
+<style>
+body {
+	background-color:#97B2C8;
+}
+</style>
+
+<center>
+<video width="320" height="240" controls>
+  <source src="GamePhotos/Gollum.mp4" type="video/mp4">
+  <source src="movie.ogg" type="video/ogg">
+</video>
+</center>
+ 
+</script>
+
+</body>
+</html>

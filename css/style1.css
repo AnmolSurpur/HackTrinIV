@@ -1,0 +1,45 @@
+body {
+	    background-opacity: 0;
+
+}
+h1 {
+	color:#FFF;
+	font-size:36pt;
+	font-family: "Tangerine", Monaco, monospace;
+	text-align: center;
+	font-weight: bold;
+}
+hr {
+	color:navy;
+		font-size:18pt;
+
+}
+h2{
+	font-size: 20px;
+	text-align: center;
+	font-weight: normal;
+		font-family: "Monaco", Monaco, monospace;
+
+
+
+}
+p {
+	font-size:16pt;
+	margin-left:16px;
+	text-align: center;
+	font-family: "Tangerine", Monaco, monospace;
+}
+a:link {
+	color:white;
+	font-style: italic;
+}
+
+img {
+	border: 5px solid;
+	border-color: black;
+}
+
+a:visited {color:white;}
+a:hover {color:white;}
+a:active {color:white;}
+

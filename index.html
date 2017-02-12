@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <title>Welcome to ....</title>
+      <link rel="stylesheet" type="text/css"
+         href="css/style1.css" />
+      <script>
+         function Mulan() {
+             if(typeof(Storage) !== "undefined") {
+                     sessionStorage.clickcount = 0;
+                 
+             } 
+         }
+         function Alice() {
+             if(typeof(Storage) !== "undefined") {
+                     sessionStorage.clickcount = 1;
+                 
+             } 
+         }
+         function Marceline() {
+             if(typeof(Storage) !== "undefined") {
+                     sessionStorage.clickcount = 2;
+ 
+             } 
+         }
+         function Wonder() {
+             if(typeof(Storage) !== "undefined") {
+                     sessionStorage.clickcount = 3;
+                 
+             } 
+         }
+      </script>
+   </head>
+   <body>
+      <script>
+         localStorage.didIGoToPageSeven = "no i did not."
+      </script>
+      <style>
+         body {
+         background-opacity: 0;
+         background-image: url("GamePhotos/Forest.gif");
+         background-repeat: no-repeat;
+         background-color: green;
+         }
+      </style>
+      <center>
+      <h1>Welcome to Classic Tales</h1>
+      <table 
+      <table style="border:0px " border="0">
+         <tr>
+            <p>
+            <center>
+               <th colspan="4">Choose Your Own Character:</th>
+            </center>
+            </p>
+         </tr>
+         <td>
+            <style>
+               button {
+               background-color: transparent;
+               border: none;
+               color: white;
+               padding: 5px 15px;
+               text-align: center;
+               text-decoration: none;
+               display: inline-block;
+               font-size: 16px;
+               }
+            </style>
+            <center><button onclick="Mulan()" type="button"><input type="radio" name="Is it morning or afternoon?" value="Mulan" \/>Mulan
+               </button>
+            </center>
+            <p>
+               <a href="page1.html">
+            <center><img src="GamePhotos/Mulan.gif" width="200" height="200"></a></p>
+         </td>
+         <td>
+            <button onclick="Alice()" type="button"><input type="radio" name="Is it morning or afternoon?" value="Alice" \/>Alice in Wonderland
+            <p>
+               <a href="page2.html">
+            <center><img src="GamePhotos/Alice.gif" width="200" height="200"></a></p>
+         </td>
+         <td>
+            <button onclick="Marceline()" type="button"><input type="radio" name="Is it morning or afternoon?" value="Adventure" \/>Marceline from Adventure Time
+            <p>
+               <a href="page3.html">
+            <center><img src="GamePhotos/Adventure.gif" width="200" height="200"></a></p>
+         </td>
+         <td>
+            <button onclick="Wonder()" type="button"><input type="radio" name="Is it morning or afternoon?" value="WonderWoman" \/>Wonder Woman
+            <p>
+               <a href="page4.html">
+            <center><img src="GamePhotos/WonderWoman.gif" width="200" height="200"></a></p>
+         </td>
+         </td>
+      </table>
+      </form>
+      <p>
+      <p>
+      </center>
+   </body>
+</html>

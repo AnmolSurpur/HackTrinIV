@@ -1,0 +1,42 @@
+<html>
+<head>
+ <link rel="stylesheet" type="text/css"
+href="css/style1.css" />
+</head>
+<body>
+
+<h1>Suddenly, you come upon two doors!!!</h1>
+<hr/>
+<p>
+One leads to certain death, the other, to your continued path. You may ask one question to one guard to help you decipher which door is the correct one. It sounds simple enough, but there is a catch: one guard always lies, and one always tells the truth... What question can you ask either of the Guards that will allow you to determine which door is the right one?
+</p><p>
+
+<a href="page6.html">Ask "Which door will the other guard say leads out?" and choose the opposite door. </a>
+
+<p><script type="text/javascript">
+if (sessionStorage.getItem("clickcount") == 0){
+	var wrong = '"page12.html"';
+}
+if(sessionStorage.getItem("clickcount") == 1){
+	var wrong = '"page13.html"';
+}
+if(sessionStorage.getItem("clickcount") == 2){
+	var wrong = '"page14.html"';
+}
+if(sessionStorage.getItem("clickcount") == 3){
+	var wrong = '"page15.html"';
+}
+ document.write('<p><a href='+wrong+'>Ask "Which door will the other guard say leads out?" and choose the door the guard says will lead out. </a></p>');
+</script>
+
+<style>
+body {
+	background-color:#97B2C8;
+}
+</style>
+
+<center><img src="GamePhotos/Labyrinth.jpg" width="550" height="401">
+</center>
+
+</body>
+</html>

@@ -1,0 +1,41 @@
+<html>
+
+<head>
+ <link rel="stylesheet" type="text/css"
+href="css/style1.css" />
+<script type="text/javascript">
+ 
+var searchString = window.location.search; //returns the query portion of a url, including the ?
+searchString = searchString.substring(1); // strip off the leading '?'
+
+var variablePairs = searchString.split("&"); //creates a list of all pairs of information (variable name and value)
+
+var nvPair0 = variablePairs[0].split("="); //takes the first variable pair and splits it up
+var variable0 = nvPair0[0]; //"name"
+var value0 = nvPair0[1]; //whatever name is
+localStorage.setItem("character", value0);
+
+</script>
+</script>
+
+<h1>Mulan</h1>
+<hr />
+<center><p style="color:black;" >You need to defeat the Huns!!! You'll have to conquer them by solvng their riddles.</p></center>
+
+<p>
+<a href="page5.html" >Start your Journey!</a>
+ 
+</script>
+
+</head>
+
+<style>
+body {
+  background-color:#97B2C8;
+}
+</style>
+
+<center><img src="GamePhotos/Huns.jpg" width="550" height="401">
+</center>
+
+</html>
